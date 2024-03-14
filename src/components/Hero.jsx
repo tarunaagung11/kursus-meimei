@@ -9,7 +9,11 @@ const Hero = () => {
                 <p>Belajar bersama</p>
                 <p>Kursus Meimei</p>
                 <p>Jangan Sampai Ketinggalan</p>
-                <button href='/' className='button'>Daftar Sekarang</button>
+                <a rel="noreferrer" href="https://api.whatsapp.com/send?phone=6285222297913&text=Halo+kak+saya+ingin+info+tentang+Kursus+Meimei" target="_blank">
+                    <button class="button">
+                    <span>Daftar Sekarang</span>
+                    </button>
+                </a>
             </div>
         </div>
     )
