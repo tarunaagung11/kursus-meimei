@@ -5,10 +5,8 @@
   max-width: 32rem;
 }
 .embla__viewport {
-  overflow: visible;
-  height: 14rem;
-  border-width: 1px;
-  height: 14rem;
+  overflow: hidden;
+  height: 25rem;
   border-width: 1px;
 }
 .embla__container {
@@ -17,6 +15,7 @@
 }
 .embla__slide {
   flex: 0 0 100%;
+  width: 2000px;
   min-width: 0;
   display: flex;
   align-items: center;

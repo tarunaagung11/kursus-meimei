@@ -12,8 +12,6 @@ import './Slider.css'
 
 export default function EmblaCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay({delay:3000})])
-
-
   return (
     <div class='embla'>
     <h1 class='tenaga'>Tenaga Pengajar</h1>
