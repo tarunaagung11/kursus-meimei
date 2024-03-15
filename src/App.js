@@ -4,8 +4,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Demo from './components/Demo'
 import Footer from './components/Footer'
-import MediaCard from './components/MediaCard'
-
+import Slider from './components/Slider'
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <MediaCard />
+      <Slider />
       <Demo />
       <Footer />
     </div>

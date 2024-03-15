@@ -1,0 +1,51 @@
+.embla {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  max-width: 32rem;
+}
+.embla__viewport {
+  overflow: visible;
+  height: 14rem;
+  border-width: 1px;
+  height: 14rem;
+  border-width: 1px;
+}
+.embla__container {
+  display: flex;
+  height: 100%;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_container_embla {
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button_embla {
+  width: 5rem;
+  border-radius: 999px;
+  background-color: var(--primary-color);
+  padding-left: 0.5rem /* 8px */;
+  padding-right: 0.5rem /* 8px */;
+  padding-top: 0.25rem /* 4px */;
+  padding-bottom: 0.25rem /* 4px */;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+  border-color: var(--primary-color);
+}
+
+.tenaga {
+  color: #fff;
+  height: 25vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
