@@ -1,6 +1,9 @@
 :root {
-  background-image: url("/src/components/images/background.png");
+  background-color: #1a1919;
   margin: auto;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
   width: 100%;
   --primary-color: #5bb462;
   --primary-dark: #4f9c55;

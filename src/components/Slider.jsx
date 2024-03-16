@@ -1,5 +1,6 @@
 'use client'
 
+import React, { useCallback } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import lin_laoshi from './images/lin laoshi.png'
@@ -11,7 +12,15 @@ import miss_mei from './images/miss mei.png'
 import './Slider.css'
 
 export default function EmblaCarousel() {
-  const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay({delay:3000})])
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({delay:3000})])
+
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev()
+  }, [emblaApi])
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext()
+  }, [emblaApi])
   return (
     <div class='embla'>
     <h1 class='tenaga'>Tenaga Pengajar</h1>
@@ -35,8 +44,23 @@ export default function EmblaCarousel() {
           <div class='embla__slide'>
             <img src={miss_mei} alt='miss_mei'/>
           </div>
+          <div className='mt-3 flex justify-between'>
         </div>
       </div>
+      </div>
+      <div class='button_container_embla'><button
+          className='button_embla'
+          onClick={scrollPrev}
+        >
+          Prev
+        </button>
+        <button
+          className='button_embla'
+          onClick={scrollNext}
+        >
+          Next
+        </button>
+        </div>
     </div>
   )
 }

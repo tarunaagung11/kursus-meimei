@@ -5,6 +5,7 @@ import About from './components/About'
 import Demo from './components/Demo'
 import Footer from './components/Footer'
 import Slider from './components/Slider'
+import Program from './components/Program'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Program />
       <Slider />
       <Demo />
       <Footer />

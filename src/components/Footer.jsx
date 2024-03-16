@@ -13,17 +13,20 @@ const Footer = () => {
         <div className='footer'>
             <div className='container' onClick={handleClick}>
                 <ul>
-                    <li className='nav-item'>
+                <li className='nav-item'>
                         <Link to="hero" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Home</Link>
                     </li>
                     <li className='nav-item'>
-                    <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Tentang Kami</Link>
+                        <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu} >Tentang Kami</Link>
                     </li>
                     <li className='nav-item'>
-                    <Link to="tenaga" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Tenaga Pengajar</Link>
+                        <Link to="program_container" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu} >Program Kursus</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#demo'>Kontak</a>
+                        <Link to="tenaga" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu} >Tenaga Pengajar</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to="demo" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Kontak</Link>
                     </li>
                 </ul>
                 

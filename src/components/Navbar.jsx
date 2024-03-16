@@ -31,6 +31,9 @@ const Navbar = () => {
                         <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu} >Tentang Kami</Link>
                     </li>
                     <li className='nav-item'>
+                        <Link to="program_container" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu} >Program Kursus</Link>
+                    </li>
+                    <li className='nav-item'>
                         <Link to="tenaga" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu} >Tenaga Pengajar</Link>
                     </li>
                     <li className='nav-item'>

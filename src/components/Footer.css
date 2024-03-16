@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  background-image: url("/src/components/images/background.png");
+  background-color: black;
   color: #eee;
   padding: 1px 1px;
 }
