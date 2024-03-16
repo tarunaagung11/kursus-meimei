@@ -26,7 +26,7 @@ const Footer = () => {
                         <Link to="tenaga" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu} >Tenaga Pengajar</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="demo" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Kontak</Link>
+                        <Link to="div3" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Kontak</Link>
                     </li>
                 </ul>
                 
