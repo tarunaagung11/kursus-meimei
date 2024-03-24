@@ -15,7 +15,7 @@ const Demo = () => {
         <div className="div7">
           <iframe
             title="map"
-            src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=Jl.%20MT.%20Haryono%20No.%20103+(Kursus%20Meimei)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            src="https://maps.google.com/maps?width=300&amp;height=300&amp;hl=en&amp;q=kursus meimei&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             width="100%"
             height={480}
             style={{ border: 0 }}
@@ -28,7 +28,7 @@ const Demo = () => {
             <div className="px-6 py-4">
               <h3 className="text-lg font-medium text-white">Alamat</h3>
               <p className="mt-1 text-white">
-                Jl. MT. Haryono No. 103
+                Jl. MT. Haryono No. 105
               </p>
             </div>
             <div className="div9">

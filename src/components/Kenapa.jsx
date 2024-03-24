@@ -9,7 +9,7 @@ const Kenapa = () => {
     className="relative block px-6 py-6 md:py-20 md:px-10  border-none "
   >
     <div className=" relative mx-auto max-w-5xl text-center">
-      <div className='bg-[#ffea00] rounded-full w-full'><h2 className=" block w-full bg-gradient-to-b text-black bg-clip-text font-bold text-3xl sm:text-4xl  ">
+      <div className='bg-[#FFFF00] rounded-full w-full'><h2 className=" block w-full bg-gradient-to-b text-black bg-clip-text font-bold text-3xl sm:text-4xl  ">
       Kenapa Harus Belajar
         </h2>
         <h2 className=" block w-full bg-gradient-to-b text-black bg-clip-text font-bold text-3xl sm:text-4xl  ">
