@@ -6,6 +6,7 @@ import Demo from './components/Demo'
 import Footer from './components/Footer'
 import Slider from './components/Slider'
 import Program from './components/Program'
+import Kenapa from './components/Kenapa'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Kenapa />
       <Program />
       <Slider />
       <Demo />

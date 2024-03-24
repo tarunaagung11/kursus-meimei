@@ -26,8 +26,8 @@ const Demo = () => {
         <div>
           <div className="div8">
             <div className="px-6 py-4">
-              <h3 className="text-lg font-medium text-gray-900">Alamat</h3>
-              <p className="mt-1 text-gray-600">
+              <h3 className="text-lg font-medium text-white">Alamat</h3>
+              <p className="mt-1 text-white">
                 Jl. MT. Haryono No. 103
               </p>
             </div>

@@ -11,37 +11,6 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-.about h2 {
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #ffff00;
-  border: none;
-  height: 70px;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  font-weight: 600;
-}
-
-.about .col-2 {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem;
-}
-
-.about .col-2 p:first-of-type {
-  text-align: justify;
-  margin: 2rem 0;
-  font-size: 1.3rem;
-  font-style: italic;
-  font-weight: 600;
-}
-
 .about button {
   background-color: yellow;
   color: black;

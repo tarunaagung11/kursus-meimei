@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Footer.css'
 import { Link } from 'react-scroll'
-import whatsapp from './images/wa.png'
+import Whatsapp from './images/wa.png'
 
 const Footer = () => {
 
@@ -39,16 +39,13 @@ const Footer = () => {
                 </div>
                     <p>2024 Execute, Inc. All rights reserved</p>
                 </div>
-                <div>
-                <a rel="noreferrer" href="https://api.whatsapp.com/send?phone=6285222297913&text=Halo+kak+saya+ingin+info+tentang+Kursus+Meimei" target="_blank">
+                <a rel="noreferrer" href="https://api.whatsapp.com/send?phone=6285222297913&text=Halo%20kak%20saya%20tertarik%20dengan%20kursus%20meimei" target="_blank">
                     <button class="btn-floating whatsapp">
-                    <img src={whatsapp} alt="whatsApp"/>
-                    <span>Kursus Meimei 0852-2229-7913</span>
+                        <img src={Whatsapp} alt="whatsApp"/>
+                        <span>0852 2229 7913 - Kursus Meimei</span>
                     </button>
-                </a>
-  
+                </a>            
                 </div>
-            </div>
         </div>
     )
 }

@@ -3,12 +3,16 @@
   background-color: rgb(21, 20, 20);
   color: #eee;
   padding: 1px 1px;
+  justify-items: center;
 }
 
 .footer .container {
-  max-width: 1240px;
+  max-width: 100%;
   margin: auto;
   text-align: center;
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }
 
 .footer ul {
@@ -37,6 +41,9 @@
 .line {
   margin-bottom: 1px;
 }
+a {
+  text-decoration: none;
+}
 .btn-floating {
   position: fixed;
   right: 25px;
@@ -52,6 +59,7 @@
 
 .btn-floating:hover {
   width: auto;
+  height: 60px;
   padding: 0 20px;
   cursor: pointer;
 }
@@ -82,19 +90,35 @@
   background-color: #1f7a12;
 }
 
-textarea {
-  resize: none;
+.contact_icon {
+  background-color: #42db87;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translatey(0px);
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 0 0 #42db87;
+  -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  font-weight: normal;
+  font-family: sans-serif;
+  text-decoration: none !important;
+  transition: all 300ms ease-in-out;
 }
 
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  white-space: nowrap;
+.text_icon {
+  margin-top: 8px;
+  color: #707070;
+  font-size: 13px;
 }
 
 .svg-inline--fa {
