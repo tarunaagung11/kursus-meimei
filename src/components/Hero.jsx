@@ -11,7 +11,7 @@ const Hero = () => {
                 <p>Jangan Sampai Ketinggalan</p>
                 <a rel="noreferrer" href="https://api.whatsapp.com/send?phone=6285222297913&text=Halo+kak+saya+ingin+info+tentang+Kursus+Meimei" target="_blank">
                     <button class="button">
-                    <span>Daftar Sekarang</span>
+                    <span className=' font-bold text-xl'>Daftar Sekarang</span>
                     </button>
                 </a>
             </div>
