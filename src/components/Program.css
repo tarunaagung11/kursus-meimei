@@ -46,7 +46,7 @@
   transform: translateY(-2px);
 }
 .leaderboard header .leaderboard__icon {
-  max-width: 250px;
+  max-width: 300px;
   padding: 100px;
   position: relative;
   top: 50%;
@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 940px) {
   .leaderboard {
-    padding: 50px;
+    padding: 30px;
   }
 }
 

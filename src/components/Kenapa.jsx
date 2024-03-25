@@ -9,10 +9,10 @@ const Kenapa = () => {
     className="relative block px-6 py-6 md:py-20 md:px-10  border-none "
   >
     <div className=" relative mx-auto max-w-5xl text-center">
-      <div className='bg-[#FFFF00] rounded-full w-full'><h2 className=" block w-full bg-gradient-to-b text-black bg-clip-text font-bold text-3xl sm:text-4xl  ">
+      <div className='bg-[#FFFF00] rounded-full w-full'><h2 className=" block w-full bg-gradient-to-b text-black bg-clip-text font-bold text-2xl sm:text-4xl  ">
       Kenapa Harus Belajar
         </h2>
-        <h2 className=" block w-full bg-gradient-to-b text-black bg-clip-text font-bold text-3xl sm:text-4xl  ">
+        <h2 className=" block w-full bg-gradient-to-b text-black bg-clip-text font-bold text-2xl sm:text-4xl  ">
       di Kursus Meimei?
         </h2>
       </div>
@@ -21,7 +21,7 @@ const Kenapa = () => {
       </p>
     </div>
     <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
-      <div className="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow">
+      <div className="rounded-md border border-neutral-800 bg-[#FFFF00] p-8 text-center shadow">
         <div
           className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border-none "
         >
@@ -30,12 +30,12 @@ const Kenapa = () => {
         alt="Bahasa Mandarin"
       />
         </div>
-        <h3 className="mt-6 text-white font-bold ">Guru Profesional</h3>
-        <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-white">
+        <h3 className="mt-6 text-black font-bold ">Guru Profesional</h3>
+        <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black">
           Guru merupakan lulusan Universitas Cina dan Universitas terkemuka di Indonesia. 
         </p>
       </div>
-      <div className="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow">
+      <div className="rounded-md border border-neutral-800 bg-[#FFFF00] p-8 text-center shadow">
         <div
           className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border-none "
         >
@@ -44,12 +44,12 @@ const Kenapa = () => {
         alt="Bahasa Mandarin"
       />
         </div>
-        <h3 className="mt-6 text-white font-bold">Kelas Flexible</h3>
-        <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-white">
+        <h3 className="mt-6 text-black font-bold">Kelas Flexible</h3>
+        <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black">
           Kami menyediakan kelas offline dan online bagi yang kesulitan mencari waktu belajar 
         </p>
       </div>
-      <div className="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow">
+      <div className="rounded-md border border-neutral-800 bg-[#FFFF00] p-8 text-center shadow">
         <div
           className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border-none "
         >
@@ -58,8 +58,8 @@ const Kenapa = () => {
         alt="Bahasa Mandarin"
       />
         </div>
-        <h3 className="mt-6 text-white font-bold">Gratis Konsultasi Beasiswa</h3>
-        <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-white">
+        <h3 className="mt-6 text-black font-bold">Gratis Konsultasi Beasiswa</h3>
+        <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black">
           Layanan konsultasi dan bimbingan gratis dan mendukung para pelajar untuk melanjutkan kuliah ke luar negeri
         </p>
       </div>
