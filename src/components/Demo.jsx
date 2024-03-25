@@ -28,7 +28,7 @@ const Demo = () => {
             <div className="px-6 py-4">
               <h3 className="text-lg font-medium text-white">Alamat</h3>
               <p className="mt-1 text-white">
-                Jl. MT. Haryono No. 105
+                Jl. MT. Haryono No. 103
               </p>
             </div>
             <div className="div9">
@@ -37,7 +37,7 @@ const Demo = () => {
             </div>
             <div className="div9">
               <h3 className="div10">Kontak</h3>
-              <p className="div11">Email: meimeijiaoyu@gmail.com</p>
+              <p className="div11">Email: kursusmeimei39@gmail.com</p>
               <p className="div11">Phone: 0852-2229-7913</p>
             </div>
           </div>
