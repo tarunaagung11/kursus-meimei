@@ -3,10 +3,10 @@ import './Kenapa.css'
 
 const Kenapa = () => {
   return (
-    <div className="bg-black border-none">
+    <div className="border-none">
   <section
     id="features"
-    className="relative block px-6 py-6 md:py-20 md:px-10  border-none "
+    className="block px-6 py-6 md:py-20 md:px-10  border-none "
   >
     <div className=" relative mx-auto max-w-5xl text-center">
       <div className='bg-[#FFFF00] rounded-full w-full'><h2 className=" block w-full bg-gradient-to-b text-black bg-clip-text font-bold text-3xl sm:text-3xl  ">

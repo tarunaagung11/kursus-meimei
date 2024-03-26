@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  background-color: #000000;
+  background-image: url(".//components/images/background.png");
   margin: auto;
   background-position: center;
   background-size: cover;
