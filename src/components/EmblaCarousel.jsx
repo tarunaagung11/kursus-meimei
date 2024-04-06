@@ -12,8 +12,6 @@ import slide_6 from './images/slide 6.jpg'
 import slide_7 from './images/slide 7.jpg'
 import slide_8 from './images/slide 8.jpg'
 import slide_9 from './images/slide 9.jpg'
-import slide_10 from './images/slide 10.jpg'
-
 
 const EmblaCarousel = (props) => {
   const { options } = props
@@ -67,9 +65,7 @@ const EmblaCarousel = (props) => {
           <div class='embla__slide1'>
             <img src={slide_9} alt=''/>
           </div>
-          <div class='embla__slide'>
-            <img src={slide_10} alt=''/>
-          </div>
+
         </div>
       </div>
 
