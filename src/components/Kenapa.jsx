@@ -20,7 +20,7 @@ const Kenapa = () => {
       Kami berkomitmen untuk selalu memberikan pelayanan kegiatan belajar dan mengajar yang terbaik.
       </p>
     </div>
-    <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
+    <div className=" mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
       <div className="rounded-md border border-neutral-800 bg-[#FFFF00] p-8 text-center shadow">
         <div
           className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border-none "
