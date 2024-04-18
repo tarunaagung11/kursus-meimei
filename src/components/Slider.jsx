@@ -24,7 +24,7 @@ export default function EmblaCarousel() {
   return (
     
     <div class='embla'>
-    <h1 class=' tenaga text-[black] bg-[#ffff00] flex justify-center items-center h-[70px] w-full relative text-center font-bold text-3xl rounded-full '
+    <h1 class=' tenaga text-[black] bg-[#eee] flex justify-center items-center h-[70px] w-full relative text-center font-bold text-3xl rounded-full '
     >Tenaga Pengajar</h1>
       <div class='embla__viewport' ref={emblaRef}>
         <div class='embla__container'>

@@ -1,5 +1,6 @@
 {
   "name": "execute-financial",
+  "homepage": "https://kursusmeimei.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

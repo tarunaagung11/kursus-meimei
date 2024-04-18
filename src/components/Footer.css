@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  background-color: rgb(21, 20, 20);
+  background-color: #aa2a2ae6;
   color: #eee;
   padding: 1px 1px;
   justify-items: center;
@@ -21,7 +21,7 @@
 }
 
 .footer li {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .footer li a {

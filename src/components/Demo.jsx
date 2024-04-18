@@ -33,7 +33,8 @@ const Demo = () => {
             </div>
             <div className="div9">
               <h3 className="div10">Jam Oprasional</h3>
-              <p className="div11">Setiap Hari: 9am - 9pm</p>
+              <p className="div11">senin - jumat : 9am - 8pm</p>
+              <p className='div11'>sabtu - minggu : 10am - 8pm</p>
             </div>
             <div className="div9">
               <h3 className="div10">Kontak</h3>
